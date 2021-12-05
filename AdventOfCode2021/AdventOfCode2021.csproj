@@ -12,6 +12,7 @@
 		<Compile Remove="02.cs" />
 		<Compile Remove="03.cs" />
 		<Compile Remove="04.cs" />
+		<Compile Remove="05.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -25,6 +26,9 @@
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
 		<None Update="input-04.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="input-05.txt">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
 	</ItemGroup>
